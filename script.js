@@ -3,4 +3,4 @@ let nome = prompt("Qual é o seu nome?");
 
 let texto = document.querySelector("#texto");
  
-texto.textContent = nomeUsuário;
+texto.textContent = nome;
