@@ -3,7 +3,7 @@ let texto = document.querySelector("#texto");
 
 let nome = prompt("Qual é o seu nome?");
 
-texto.textContent = "nome";
+texto.textContent = nome;
 
 //Desafio extra
 
