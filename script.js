@@ -1,12 +1,15 @@
-alert("Bem vindo ao meu portifólio!");
+let texto = document.querySelector("#texto");
+// texto.textContent = "Fernanda";
+
 let nome = prompt("Qual é o seu nome?");
 
-let texto = document.querySelector("#texto");
+texto.textContent = "nome";
 
-//texto.textContent = nome;
+//Desafio extra
 
-if (nomeUsuário == null){
-    elemento.textContent = 'seja muito bem vindo.';
-}else{
-    elemento.textContent = nomeUsuário;
-}
+// if (nomeUsuário == null){
+//     elemento.textContent = 'seja muito bem vindo.';
+// }else{
+//     elemento.textContent = nomeUsuário;
+// }
+// alert("Bem vindo ao meu portifólio!");
