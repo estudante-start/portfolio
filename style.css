@@ -6,10 +6,12 @@
 body{
     color:grey;
     font-family: sans-serif;
+    padding: 0px 10px;
 }
 
 header{
     text-align: center;
+    margin: 10px 0;
 }
 
 p{
@@ -25,7 +27,18 @@ span{
 }
 
 div{
-   border: 10px green solid;
+   border: 1px black solid;
+   border-radius: 5px;
    padding: 5px;
-   margin: 2%
+   margin: 10px;
+}
+
+img{
+    width: 200px;
+}
+
+.menu{
+      display: flex;
+      gap: 2px;
+      border: none;
 }
