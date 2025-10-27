@@ -41,4 +41,5 @@ img{
       display: flex;
       gap: 2px;
       border: none;
+      justify-content: center;
 }
