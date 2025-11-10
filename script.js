@@ -4,5 +4,5 @@ let texto = document.querySelector("#nome")
 
 let nome = prompt("Qual é o seu nome?")
 
-texto.textcontent = nome
+texto.textContent = nome;
 
