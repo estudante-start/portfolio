@@ -6,6 +6,7 @@
 body{
     color:grey;
     font-family: sans-serif;
+    padding: 5px;
 }
 
 header{
@@ -25,7 +26,22 @@ span{
 }
 
 div{
-   border: 10px green solid;
-   padding: 5px;
-   margin: 2%
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
 }
+
+main{
+    margin-top: 10px;
+}
+
+section{
+ display: flex;
+ justify-content: center;
+}
+
+img{
+    width: 200px;
+}
+
